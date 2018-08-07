@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "cwrc-writer-base": "2.18.0",
-    "cwrc-charon-dialogs": "^1.1.7",
+    "cwrc-charon-dialogs": "file:///Users/nakatomi/Projects/Vagrant/cwrc-charon-dialogs",
     "cwrc-public-entity-dialogs": "^1.2.8",
     "dbpedia-entity-lookup": "^0.3.0",
     "geonames-entity-lookup": "^1.1.2",
