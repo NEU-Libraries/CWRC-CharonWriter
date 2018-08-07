@@ -1,10 +1,10 @@
 {
-  "name": "cwrc-git-writer",
+  "name": "cwrc-charon-writer",
   "version": "0.0.0",
-  "description": "xml editing and rdf annotation using github as document store",
+  "description": "xml editing and rdf annotation using Charon as the document store",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cwrc/CWRC-GitWriter.git"
+    "url": "https://github.com/NEU-Libraries/CWRC-CharonWriter.git"
   },
   "keywords": [
     "xml",
@@ -18,9 +18,9 @@
   ],
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/cwrc/CWRC-GitWriter/issues"
+    "url": "https://github.com/NEU-Libraries/CWRC-CharonWriter/issues"
   },
-  "homepage": "https://github.com/cwrc/CWRC-GitWriter#readme",
+  "homepage": "https://github.com/NEU-Libraries/CWRC-CharonWriter#readme",
   "scripts": {
     "build": "npm run clean && npm run copyfiles && npm run build:js",
     "clean": "rimraf build",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "cwrc-writer-base": "2.18.0",
-    "cwrc-git-dialogs": "^1.1.7",
+    "cwrc-charon-dialogs": "^1.1.7",
     "cwrc-public-entity-dialogs": "^1.2.8",
     "dbpedia-entity-lookup": "^0.3.0",
     "geonames-entity-lookup": "^1.1.2",
