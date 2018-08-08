@@ -68,6 +68,8 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
   
+  config.vm.network :forwarded_port, guest: 80, host: 8080
+  
   # Share the current directory to /vagrant on the virtual machine
   config.vm.synced_folder "." , "/home/vagrant/charon-writer", nfs: true
   config.vm.network "private_network", ip: "192.168.50.4"
